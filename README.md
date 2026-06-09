@@ -1,10 +1,10 @@
-# 🧠 MNIST Handwritten Digit Classifier — Custom CNN
+# MNIST Handwritten Digit Classifier — Custom CNN
 
 A deep learning image classification project built **from scratch** using a custom Convolutional Neural Network (CNN) architecture. Designed with clean OOP principles — every component is a class with a single responsibility.
 
 ---
 
-## 🎯 Results
+## Results
 
 | Metric | Value |
 |---|---|
@@ -15,7 +15,7 @@ A deep learning image classification project built **from scratch** using a cust
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Input (28×28×1)
@@ -44,7 +44,7 @@ Output: 10 classes (digits 0–9)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mnist-cnn/
@@ -73,7 +73,7 @@ mnist-cnn/
 
 ---
 
-## ⚙️ OOP Design
+## OOP Design
 
 | Class | Responsibility |
 |---|---|
@@ -85,7 +85,7 @@ mnist-cnn/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone & install
@@ -105,19 +105,14 @@ python predict.py --image path/to/your/digit.png
 
 ---
 
-## 📊 Training Curves
+## Training Curves
 
 Training and validation accuracy/loss curves are saved automatically to `results/training_curves.png` after running `main.py`.
 
 ---
 
-## 🔍 Sample Predictions
+## Sample Predictions
 
 Green title = correct prediction | Red title = wrong prediction
 
 ---
-
-## 👤 Author
-
-**Muhammed Alaa Ibrahim** — AI/ML Engineer  
-[LinkedIn](https://www.linkedin.com/in/muhammed-elmelegy) · [GitHub](https://github.com/muhammed-alaa74)
